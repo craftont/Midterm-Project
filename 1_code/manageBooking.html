@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheaterBook Manage Booking</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        .movie {
+            background-image: url(panda.jpg);
+        }
+        .box {
+            width: 450px;
+            height: 250px;
+            position: relative;
+            border: 2px solid black;
+            text-align: center;
+            margin: 10px;
+            top: 10px;
+            background-color: aliceblue;
+        }
+        .booking h3 {
+            font-size: x-large;
+            position: relative;
+            right: 160px;
+            margin: 30px;
+            bottom: 5px;
+            height: 40px;
+            text-align: center;
+        }
+        .booking a {
+            margin: 5px;
+            box-shadow: black 1px 1px 1px 1px;
+            height: 30px;
+        }
+        .ticketNum {
+            left: 420px;
+            position: absolute;
+            top: 380px;
+            background-color: white;
+        }
+        .booking .confirm {
+            position: absolute;
+            width: 150px;
+            height: 30px;
+            left: 560px;
+            top: 383px;
+            background-color: green;
+            color: white;
+            box-shadow: black 1px 1px 1px 1px;
+        }
+        .booking h1 {
+            right: 115px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html" style="text-decoration: none; color: black;">TheaterBook</a></h1>
+        <a href="account.html">
+            <div class="icon"></div>
+        </a>
+    </header>
+    <main>
+        <div class="movieTile">
+            <div class="movie"></div>
+            <h2>Kung Fu Panda 4</h2>
+            <p>Description</p>
+        </div>
+    </main>
+    <div class="booking">
+        <h1>Manage Booking</h1>
+        <div class="box">
+            <h2>Movie Theater</h2>
+            <h2>Time Slot:</h2>
+            <h2>xx:xx am -- xx:xx pm</h2>
+            <h2>(Month Day)</h2>
+            <h2>Tickets: --</h2>
+        </div>
+        <h3>Change Number <br>of Tickets:</h3>
+        <div class="ticketNum"></div>
+        <a href="cancelBooking.html" style="background-color: red; color: white;">Cancel Booking</a>
+        <a href="index.html">Exit</a>
+        <a href="ticketChange.html" class="confirm">Confirm</a>
+    </div>
+    <footer></footer>
+</body>
+</html>

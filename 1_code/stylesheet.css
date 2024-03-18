@@ -1,0 +1,193 @@
+body {
+    width: 1500px;
+    height: 750px;
+    border: 2px solid black;
+    margin: 100px;
+}
+
+main {
+    width: auto;
+    height: 570px;
+    border: 2px solid black;
+    background-color: rgb(255, 253, 253);
+}
+
+header {
+    height: 100px;
+    width: auto;
+    border: 2px solid black;
+    background-color: rgb(142, 227, 255);
+}
+
+header h1 {
+    margin-left: 40px;
+    top: 10px;
+    width: 200px;
+    position: relative;
+    border: 2px solid grey;
+    background-color: aliceblue;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: black 2px 2px 2px 2px;
+}
+
+.icon {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    left: 1490px;
+    top: 122px;
+    border-radius: 50px;
+    background-image: url(accountIcon.webp);
+    background-size: cover;
+    box-shadow: black 1px 1px 1px 1px;
+    background-color: aliceblue;
+}
+
+footer {
+    position: absolute;
+    border: 2px solid black;
+    width: 1496px;
+    height: 68px;
+    background-color: rgb(142, 227, 255);
+}
+
+.movieTile {
+    height: 99.5%;
+    width: 550px;
+    border: 2px solid black;
+    background-color: aliceblue;
+}
+
+.movieTile .movie {
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    position: relative;
+    left: 150px;
+    top: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: black 2px 2px 2px 2px;
+    border-radius: 15px;
+}
+
+.movieTile h2 {
+    position: relative;
+    font-size: xx-large;
+    top: 35px;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    left: 125px;
+    text-wrap: wrap; 
+}
+
+.movieTile p {
+    border: 1px solid black ;
+    box-shadow: black 1px 1px 1px 1px;
+    position: relative;
+    width: 400px;
+    height: 70px;
+    left: 70px;
+    padding: 5px;
+    text-wrap: wrap;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.content {
+    position: absolute;
+    width: 945px;
+    height: 567px;
+    border: 2px solid black;
+    top: 208px;
+    left: 655px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 253, 253);
+}
+
+.content h1 {
+    position: absolute;
+    left: 400px;
+    top: 0px;
+}
+
+.showBox {
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+.showBox a {
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: black 1px 1px 1px 1px;
+}
+
+.booking {
+    position: absolute;
+    width: 945px;
+    height: 567px;
+    border: 2px solid black;
+    top: 208px;
+    left: 655px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 253, 253);
+}
+
+.booking h1 {
+    position: relative;
+    right: 175px;
+    top: 10px;
+}
+
+.ticketNum {
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    position: relative;
+    left: 100px;
+    bottom: 60px;
+    background-color: white;
+}
+ .booking a {
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 5px;
+    border-radius: 15px;
+ }
+ main a {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
